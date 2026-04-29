@@ -1,0 +1,98 @@
+.countainer {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.block__free-money {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.button__money {
+    padding: 18px 35px;
+
+    border: none;
+    border-radius: 14px;
+
+    background: #3cff66;
+    color: black;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.button__money:hover {
+    transform: scale(1.05);
+    background: #2de455;
+}
+
+.img_money {
+    width: 220px;
+    object-fit: cover;
+}
+
+.block_money-modal {
+    width: 300px;
+
+    position: fixed;
+/*     top: 50%;
+    left: 50%; */
+
+    transform: translateY(-1500px);
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    background: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    transition: 0.6s;
+    background-color: gray;
+}
+
+.block_money-modal.active {
+    transform: translateY(70px);
+}
+
+.money_text {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.close_money {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    width: 35px;
+    height: 35px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: red;
+    color: white;
+
+    cursor: pointer;
+}
+
+.money_gorila {
+    width: 250px;
+    border-radius: 15px;
+}
